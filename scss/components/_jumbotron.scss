@@ -10,6 +10,20 @@
   height: 570px;
   justify-content: center;
   margin-bottom: 0;
+
+  ul.social-media {
+    display: flex;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    li {
+      margin: 0 10px;
+
+      a:hover {
+        color: $white;
+      }
+    }
+  }
   
 
   h1 {

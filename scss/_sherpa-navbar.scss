@@ -168,6 +168,7 @@
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
+  font-weight: 700;
 
   &:hover {
     color: $sherpa-secondary-color;
@@ -220,6 +221,8 @@
    @media screen and (min-width: 1700px) {
     .container {
       max-width: 1770px;
+       
+
     }
   }
 
@@ -243,12 +246,34 @@
 
 .navbar-right {
   padding: .5rem 1rem;
+  padding-right: 0;
   margin-left: auto;
   margin-right: 0;
+
+   ul.social-media {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 0;
+       position: absolute;
+       right: 0;
+       top: 0;
+
+       li {
+         margin: 0 10px;
+
+         a:hover {
+           color: $sherpa-brand-primary;
+         }
+       }
+     }
 
 
   @include media-breakpoint-up(md) {
      margin-top: auto;
+
+    
   }
 
   @include media-breakpoint-down(md) {
@@ -490,7 +515,6 @@
   }
 
   .navbar-right {
-    position: relative;
     padding: 0 0;
     display: flex;
     flex: 1;
@@ -627,6 +651,7 @@
   padding-right: .6rem;
   padding-left: .6rem;
   letter-spacing: 2px;  
+  font-weight: 700;
 
   &:hover {
     color: $white;
@@ -638,11 +663,11 @@
   background: rgba(0, 0, 0, 0.79);
   
 
-  @include media-breakpoint-up(md) {
-    li:first-child {
-      display: none;
-    }
-  }
+//   @include media-breakpoint-up(md) {
+//     li:first-child {
+//       display: none;
+//     }
+//   }
 }
 
 .dropdown-item {
@@ -687,7 +712,7 @@
     color: #000;
   }
 
-  .internal .navbar-sherpa li:first-child a {
+  .internal .navbar-sherpa > li:first-child a {
   padding-left: 0;
   }
 

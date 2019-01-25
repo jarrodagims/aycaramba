@@ -58,34 +58,21 @@
     </div>
     <div class="top-header <?php if(!is_front_page()) : ?>internal<?php endif; ?>">
         <div class="container">
-
             <div class="v-align row">
                 <div class="col-xs-12 navbar-button text-center">
 
-
-
-                    <a class="navbar-brand d-lg-block d-none" href='<?php echo get_site_url(); ?>'><img
-                            src="<?= IMGURL; ?>logo.png"
+                    <a class="navbar-brand d-lg-block d-none" href='<?php echo get_site_url(); ?>'><img src="<?= IMGURL; ?>logo.png"
                             alt="<?php echo get_bloginfo(
                                 'description'
                             ); ?>" /></a>
 
 
                     <div class="navbar-right d-none d-lg-flex">
-
-                        <?php
-                        $sm = new SocialMedia(array('facebook', 'twitter'));
-                        $sm->setSize('sm');
-                        $sm->showNetworkButtons();
-                        $sm->setColorType('singleColor');
-                        ?>
-
                         <ul class="nav navbar-nav navbar-right">
                             <li>1926 Montana Ave 79903 | PH: <a href="tel:9155333377">915.533.3377</a></li>
                             <li>8001 N Mesa St 79932 | PH: <a href="tel:9155815565">915.581.5565</a></li>
                             <li>
-                                <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">Contact
-                                        us</button></a>
+                                <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">Contact us</button></a>
                             </li>
                         </ul>
                     </div>

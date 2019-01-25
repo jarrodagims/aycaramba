@@ -6,23 +6,14 @@
 <section class="home-module-1">
 
     <div class="bg-jumbo">
-
         <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
         <div class="jumbotron">
-            <div class="d-block d-lg-none">
-                <?php
-            $sm = new SocialMedia(array('facebook', 'twitter'));
-            $sm->setSize('sm');
-            $sm->showNetworkButtons();
-            $sm->setColorType('singleColor');
-            ?>
-            </div>
             <div class="jumbo-content">
                 <h1>
                     <div>
                         Mexican Restaurant
 
-                        <div class="d-lg-none d-xs-flex"><a href="<?=SITEURL?>/menu/"><button
+                        <div class="d-md-none d-xs-flex"><a href="<?=SITEURL?>/menu/"><button
                                     class="btn btn-primary">Our
                                     Menu</button></a>
                             <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-outline">Contact Us</button></a>
@@ -70,6 +61,7 @@
             </li>
         </ul>
     </div>
+
     <ul class="menu-secondary">
         <li class="active">
             <p>
@@ -131,33 +123,29 @@
 
     <div class="dropdown-top d-lg-none">
         <h2>A
-            Mexican Restaurant <span class="br-xs">Focused on Quality</span>
+            Mexican Restaurant Focused on Quality
         </h2>
-
         <p class="h3" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false"
             aria-controls="collapseExample"><span>Visit us for the best Mexican food in El Paso</span>
         </p>
-
-
         <h2>
-            <ul id="collapse2" class="collapse">
-                <li>Visit us for the best Mexican food in El Paso!</li>
-                <li>We use only the top ingredients for all of our dishes.</li>
-                <li>Our highly-reviewed establishment provides quality customer service.</li>
-                <li>We are a local Mexican restaurant serving El Pasoans since 1998.</li>
-                <li>We have among the highest ratings for Mexican restaurants in the area.</li>
-                <li>Leave us your reviews, we want to hear from you!</li>
-                <li>For authentic Mexican food, Ay Caramba! is the place.</li>
-                <li>Our dishes come from traditional recipes.</li>
-                <li>Our menu includes seafood dishes as well.</li>
-                <li>Come experience our high-quality steaks.</li>
-                <li>We offer breakfast, lunch, and dinner.</li>
-                <li>Call us ahead for carry out!</li>
-                <li>Be sure to browse our menu and find your favorite Mexican plates.</li>
-            </ul>
+        <ul id="collapse2" class="collapse">
+            <li>Visit us for the best Mexican food in El Paso!</li>
+            <li>We use only the top ingredients for all of our dishes.</li>
+            <li>Our highly-reviewed establishment provides quality customer service.</li>
+            <li>We are a local Mexican restaurant serving El Pasoans since 1998.</li>
+            <li>We have among the highest ratings for Mexican restaurants in the area.</li>
+            <li>Leave us your reviews, we want to hear from you!</li>
+            <li>For authentic Mexican food, Ay Caramba! is the place.</li>
+            <li>Our dishes come from traditional recipes.</li>
+            <li>Our menu includes seafood dishes as well.</li>
+            <li>Come experience our high-quality steaks.</li>
+            <li>We offer breakfast, lunch, and dinner.</li>
+            <li>Call us ahead for carry out!</li>
+            <li>Be sure to browse our menu and find your favorite Mexican plates.</li>
+        </ul>
         </h2>
     </div>
-
     <div class="container">
         <div class="row">
 
@@ -168,11 +156,9 @@
                     <h2>A
                         Mexican Restaurant Focused on Quality
                     </h2>
-
                     <p class="h3" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false"
                         aria-controls="collapseExample"><span>Visit us for the best Mexican food in El Paso</span>
                     </p>
-
 
                     <h2>
                         <ul id="collapse" class="collapse">
@@ -195,19 +181,19 @@
 
                 <div class="extra-padding">
 
-                    <p>
-                        <em><span class="brand">Ay Caramba!</span> is a local Mexican restaurant focused on serving
-                            quality homestyle
-                            food.</em>
-                    </p>
+                        <p>
+                            <em><span class="brand">Ay Caramba!</span> is a local Mexican restaurant focused on serving
+                                quality homestyle
+                                food.</em>
+                        </p>
 
                     <p>Ay, Caramba! is a local Mexican restaurant focused on serving quality home-style food. The
-                        restaurant was opened in 1998 by the Aguirre family with the intention of cooking with
-                        authentic Mexican flavor. Our specialty is making traditional Mexican dishes the way your
-                        grandma would make them! We prepare all of our food with love, patience, and the expertise
-                        of old-fashioned Mexican cooks. Our aim is to keep people’s favorite dishes alive through
-                        traditional recipes and never forget the dishes that have made Mexican food a favorite
-                        around the world. </p>
+                            restaurant was opened in 1998 by the Aguirre family with the intention of cooking with
+                            authentic Mexican flavor. Our specialty is making traditional Mexican dishes the way your
+                            grandma would make them! We prepare all of our food with love, patience, and the expertise
+                            of old-fashioned Mexican cooks. Our aim is to keep people’s favorite dishes alive through
+                            traditional recipes and never forget the dishes that have made Mexican food a favorite
+                            around the world. </p>
                 </div>
 
             </div>

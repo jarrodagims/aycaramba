@@ -16,17 +16,19 @@
                 </div>
             </div>
 
-            <div class="col map-column d-lg-block d-none">
+            <div class="col map-column first d-lg-block d-none">
                 <div class="row">
                     <div class="col flex-grow-1">
                         <span>1926 Montana Ave 79903</span>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.8113943214803!2d-106.47493584861849!3d31.775629681193998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759a4359e7057%3A0xd2970bc80607569e!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652523092"
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.8113943214803!2d-106.47493584861849!3d31.775629681193998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759a4359e7057%3A0xd2970bc80607569e!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652523092"
                             width="500%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                 </div>
                 <div class="row">
                     <div class="col flex-grow-1">
                         <span>8001 N Mesa St 79932</span>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217179.66146282374!2d-106.42510997104993!3d31.73140162504905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddfeea2a3c7b5b%3A0x3561ba7217d78e59!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652573725"
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217179.66146282374!2d-106.42510997104993!3d31.73140162504905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddfeea2a3c7b5b%3A0x3561ba7217d78e59!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652573725"
                             width="500%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
@@ -36,17 +38,19 @@
 
     </div>
 
-    <div class="row map-column d-lg-none">
+    <div class="row map-column first d-lg-none">
         <div class="col">
             <span>1926 Montana Ave 79903</span>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.8113943214803!2d-106.47493584861849!3d31.775629681193998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759a4359e7057%3A0xd2970bc80607569e!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652523092"
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.8113943214803!2d-106.47493584861849!3d31.775629681193998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e759a4359e7057%3A0xd2970bc80607569e!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652523092"
                 width="500%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
     <div class="row map-column d-lg-none">
         <div class="col">
             <span>8001 N Mesa St 79932</span>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217179.66146282374!2d-106.42510997104993!3d31.73140162504905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddfeea2a3c7b5b%3A0x3561ba7217d78e59!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652573725"
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217179.66146282374!2d-106.42510997104993!3d31.73140162504905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddfeea2a3c7b5b%3A0x3561ba7217d78e59!2sAy+Caramba+Restaurant!5e0!3m2!1sen!2sus!4v1547652573725"
                 width="500%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
@@ -102,28 +106,33 @@
                 <div><span class="title locations">Locations</span>
 
                     <div class="footer-block">
-                        <p class="plus">1926 Montana Ave 79903 | PH: <a href="tel:915.533.3377">915.533.3377</a></p>
 
-                        <div class="hours"><a href="<?=SITEURL?>/contact-us/" class="hours"><button class="btn-primary btn btn-outline">Hours</button></a>
-                            <p>Sunday - Thursday: 7:00am - 9:00pm<br />Friday - Saturday: 7:00am - 10:00pm</p>
+
+                        <p class="plus">1926 Montana Ave 79903 | PH: <a href="tel:915.533.3377">915.533.3377</a></p>
+                        <br />
+                        <div class="hours"><a href="<?=SITEURL?>/contact-us/" class="hours"><button
+                                    class="btn-primary btn btn-outline">Montana<br />Hours</button></a>
+                            <p>Monday - Saturday: 7:00am - 9:00pm<br />Sunday: 7:00am - 5:00pm</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col">
-                <span class="title d-none d-md-block">&nbsp;</span>
+                <span class="title d-none d-lg-block">&nbsp;</span>
 
                 <div class="footer-block">
-                    <p class="plus">8001 N Mesa St 79932 | PH: <a href="tel:915.581.5565">915.581.5565</a></p>
 
-                    <div class="hours"><a href="<?=SITEURL?>/contact-us/" class="hours"><button class="btn btn-primary btn-outline">Hours</button></a>
+                    <p class="plus">8001 N Mesa St 79932 | PH: <a href="tel:915.581.5565">915.581.5565</a></p>
+                    <br />
+                    <div class="hours"><a href="<?=SITEURL?>/contact-us/" class="hours"><button
+                                class="btn btn-primary btn-outline">Mesa<br />Hours</button></a>
                         <p>Sunday - Thursday: 7:00am - 9:00pm<br />Friday - Saturday: 7:00am - 10:00pm</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row button-footer d-md-none">
+        <div class="row button-footer d-lg-none">
             <div class="col">
                 <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">Contact Us</button></a>
             </div>
